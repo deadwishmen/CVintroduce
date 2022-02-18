@@ -79,13 +79,13 @@ body{
 }
 .circle-1{
     top: 50px;
-    right: 300px;
-    background: linear-gradient(to right, #FFF6B7, #f6416c); 
+    right: 200px;
+    background: linear-gradient(to right, #FFF6B7, #f6416c);
 }
 .circle-2{
     top: 100px;
-    right: 600px;
-    background: linear-gradient(to right, #fdd819, #e80505); 
+    right: 500px;
+    background: linear-gradient(to right, #fdd819, #e80505);
 }
 .circle-3{
     top: 400px;
