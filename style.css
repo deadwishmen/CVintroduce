@@ -106,6 +106,10 @@ body{
     height: 4px;
     border-radius: 100%;
 }
+.introduce-group{
+    font-size: 30px;
+
+}
 .personal{
     display: flex;
     margin: 0 100px;
@@ -155,8 +159,8 @@ body{
 }
 .Intersts-icon{
     color: red;
+    font-size: 400px;
 }
-
 /* footer*/
 footer{
     display: flex;
