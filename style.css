@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0 0;
     padding: 0;
@@ -8,19 +9,22 @@ body{
     margin: 0px;
     background-color: #1c1e21;
     color: white;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Lobster', cursive;
+    background: url(./img/B-spiderman.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Lobster', cursive;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #0F2027; 
+    /* background: #0F2027; 
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     background: linear-gradient(45deg, #2C5364, #203A43 15%, #0F2027 45%); 
-    background-size: cover;
+    background-size: cover; */
     height: 100vh;
 }
 .content{
@@ -38,7 +42,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba( 255, 255, 255, 0.05 );
+    background: rgba( 255, 255, 255, 0 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
@@ -92,6 +96,9 @@ body{
     right: 400px;
     background: linear-gradient(to right, #43cbff, #9708cc); 
 }
+.introduce{
+    border-top: 1px solid rgba(255, 255, 255, 0.178) ;
+}
 .layout{
     font-size: 400px;
     display: flex;
@@ -108,7 +115,7 @@ body{
 }
 .introduce-group{
     font-size: 30px;
-
+    margin: 50px 0;
 }
 .personal{
     display: flex;
@@ -120,6 +127,9 @@ body{
 .personal-icon{
     font-size: 400px;
     color: #fdd819;
+}
+.personal-content{
+    margin: 0 50px;
 }
 .personal ul{
     margin: 0px 100px;
@@ -137,6 +147,10 @@ body{
 .education .education-content h1{
     font-size: 4rem;
 }
+.education-content{
+    margin: 0 50px;
+    padding: 0 50px;
+}
 .education img{
     width: 400px;
     height: 400px;
@@ -153,6 +167,7 @@ body{
 }
 .Intersts-content{
     margin: 0 100px;
+    padding: 0px 50px;
 }
 .Intersts-content h1{
     font-size: 4rem;
@@ -161,13 +176,23 @@ body{
     color: red;
     font-size: 400px;
 }
+.content-main{
+    display: block;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.1 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 /* footer*/
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: linear-gradient(to bottom,#1c1e21 50%,rgba(37, 52, 75, 0.89)), url(./img/AdobeStock_218730281-1-1118x538.jpg);
+    background-image: linear-gradient(to bottom,#071731f8 50%,#0b2f99da), url(./img/AdobeStock_218730281-1-1118x538.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top: 1px solid rgba(255, 255, 255, 0.178) ;
 }
 .Socialicons{
