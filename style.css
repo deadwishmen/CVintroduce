@@ -12,6 +12,7 @@ body{
     font-family: 'Lobster', cursive;
     background: url(./img/B-spiderman.jfif);
     background-size: cover;
+    background-position: top;
     background-repeat: no-repeat;
 }
 .header{
