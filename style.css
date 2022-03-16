@@ -28,6 +28,21 @@ body{
     background-size: cover; */
     height: 100vh;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-item{
+    font-size: 30px;
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav-item:hover{
+    border-bottom: #01b3e3 3px solid;
+}
 .content{
     display: flex;
     align-items: center;
@@ -259,4 +274,72 @@ footer p{
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
 	background-image: linear-gradient(to top, #021f9e,#fe0096 )
+}
+
+/* scrollbar */
+.scrollprogress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    border: none;
+    background: transparent;
+    z-index: 9;
+}
+.scrollprogress::-webkit-progress-bar {
+    background: transparent;
+}
+.scrollprogress::-webkit-progress-value {
+    background: linear-gradient(to left, #db38b5,#01b3e3,#25ce7b,#fdc741,#ff6b01,#fc4236);
+    background-attachment: fixed;
+}
+.scrollprogress::-moz-progress-bar {
+    background: linear-gradient(to left, #db38b5,#01b3e3,#25ce7b,#fdc741,#ff6b01,#fc4236);
+    background-attachment: fixed;
+}
+/* Professional Skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+.skills-bar{
+    width: 100%;
+    height: 20px;
+    border: 0;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    background: transparent;
+}
+.skills-label{
+    margin: 30px 0 10px 0;
+}
+.skills-bar::-webkit-progress-bar {
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
+    animation: growth ease-in 1s;
+}
+@keyframes growth{
+    form{
+        opacity: 0;
+        width: 0px;
+    }
+    to{
+        width: 100%;
+        opacity: 1;
+    }
+}
+.skills-bar::-webkit-progress-value {
+    background: linear-gradient(to left, #db38b5,#01b3e3,#25ce7b,#fdc741,#ff6b01,#fc4236);
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+.skills-bar::-moz-progress-bar {
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
 }
